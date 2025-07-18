@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.link {
+    color: #17233D;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.875px;
+    margin-right: 47px;
+    margin-left: 41px;
+    width: 83px;
+    cursor: pointer;
+}
+
+.sign {
+    color: #FFF;
+    font-weight: 500;
+    font-size: 16px;
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    background: #6FBF44;
+    cursor: pointer;
+    border: none;
+}
+
+header {
+    align-items: baseline;
+    display: flex;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 500;
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+h1 {
+    width: 582px;
+    max-width: 100%;
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+p {
+    width: 493px;
+    max-width: 100%;
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+.learn {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 90px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.sign:hover {
+    opacity: 0.5;
+}
+
+.sign:active {
+    opacity: 0.3;
+}
+
+.learn:hover {
+    opacity: .5;
+}
+
+.learn:active {
+    opacity: 0.3;
+}
+
+.link:hover {
+    opacity: 0.5;
+}
+
+.link:active {
+    opacity: 0.3;
+}
+
+@media screen and (max-width: 900px) {
+    .link {
+        display: none;
+    }
+
+    header {
+        display: block;
+        float: right;
+        margin-right: 10px;
+    }
+
+    .container {
+        display: block;
+
+    }
+
+    h1 {
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+    p{
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    .logo{
+        margin-top: 500px;
+    }
+
+    aside {
+        margin-top: -800px;
+    }
+
+}
